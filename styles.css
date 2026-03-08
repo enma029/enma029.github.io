@@ -17,6 +17,7 @@ body{
     box-sizing: border-box;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 h1{
     font-family: 'Cormorant', serif;
@@ -43,6 +44,19 @@ h1{
     letter-spacing: 0.5px;
     color: #d6d0cc;
 }
+/* DIseño de article jardin */
+.article__jardin{
+    background-color: #2e2b3484;
+    margin: 10px;
+    padding:5px 1px 7px 1px;
+    border-radius:20px;
+    box-sizing: border-box;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 10px 30px rgba(53, 51, 51, 0.3);
+}
+.article__jardin:hover{
+    transform: translateY(-5px);
+}
 /* Contenido */
 .Galeria-Poemas{
     margin: 0;
@@ -51,7 +65,7 @@ h1{
     box-sizing: border-box;
 }
 .box_jardin{
-    padding: 8px;
+    padding: 1px;
 }
 .Contenedor__superior{
     display: flex;
@@ -74,7 +88,7 @@ h2{
     width: 50%;
     height: auto;
     border-radius: 13px;
-    margin: 0;
+    margin-top: 25px;
 }
 
 .text__jardin{
@@ -82,12 +96,12 @@ h2{
     color:#bdbab8;
     font-family:"Monzerrat";
     font-size: 10px;
-    padding: 5px;
+    padding: 4px;
     margin: 0;
 }
 .mayuscula{
     font-size: 30px;
-    font-family: sans-serif;
+    font-family:Playfair;
 }
 .text__jardin2{
     width: 95%;
@@ -97,4 +111,5 @@ h2{
     text-align: justify;
     font-family:"Monzerrat";
     padding: 0 10px;
+    margin: 0;
 }
