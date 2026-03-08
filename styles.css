@@ -72,25 +72,26 @@ h2{
     height: auto;
     border-radius: 13px;
 }
-.box__text-jardin{
-    
-}
+
 .text__jardin{
     width: 45%;
-    background-color: #ffffff;
     color:#bdbab8;
     font-family:"Monzerrat";
-    font-size: 12px;
-    padding: 10px;
+    font-size: 10px;
+    padding: 5px;
     margin: 0;
 }
 .mayuscula{
     font-size: 30px;
+    font-family: sans-serif;
 }
 .text__jardin2{
-    max-width: 50%;
-    margin-top: 0;
+    width: 95%;
+    margin: 9px;
     padding: 5px;
-    font-size: 14px;
-    color:#bdbab8;
+    font-size: 10px;
+    color: #bdbab8;
+    line-height: 1.3;
+    text-align: justify;
+    font-family:"Monzerrat";
 }
